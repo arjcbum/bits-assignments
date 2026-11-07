@@ -1,0 +1,17 @@
+{
+    "dataset": "Wisconsin Diagnostic Breast Cancer",
+    "total_samples": 569,
+    "training_samples": 426,
+    "testing_samples": 143,
+    "number_of_features": 30,
+    "target_column": "diagnosis",
+    "test_size": 0.25,
+    "random_state": 42,
+    "models": [
+        "logistic_regression",
+        "decision_tree",
+        "knn",
+        "gaussian_naive_bayes",
+        "svm"
+    ]
+}
